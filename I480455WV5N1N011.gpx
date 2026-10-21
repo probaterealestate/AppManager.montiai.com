@@ -1,53 +1,79 @@
-<?xml version="1.0"?>
-<gpx version="1.1" creator="Organic Maps" xmlns="http://www.topografix.com/GPX/1/1"
-    xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3"
-    xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 https://www.topografix.com/GPX/1/1/gpx.xsd http://www.topografix.com/GPX/gpx_style/0/2 https://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 https://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd">
-<metadata>
-  <name>I480455WV5N1N011</name>
-</metadata>
-<wpt lat="37.360748" lon="-80.891802">
-  <name>Adairs Run Road</name>
-</wpt>
-<trk>
-  <name>March 9, 2026 at 3:33 PM</name>
-  <extensions>
-    <gpxx:TrackExtension><gpxx:DisplayColor>DarkMagenta</gpxx:DisplayColor></gpxx:TrackExtension>
-    <gpx_style:line><gpx_style:color>9B24B2</gpx_style:color></gpx_style:line>
-    <xsi:gpx><color>#FF9B24B2</color></xsi:gpx>
-  </extensions>
-  <trkseg>
-    <trkpt lat="37.360522" lon="-80.892516">
-      <ele>587</ele>
-      <time>2026-03-09T18:23:30Z</time>
-    </trkpt>
-    <trkpt lat="37.360663" lon="-80.892237">
-      <ele>538</ele>
-      <time>2026-03-09T19:30:04Z</time>
-    </trkpt>
-    <trkpt lat="37.36065" lon="-80.892261">
-      <ele>538</ele>
-      <time>2026-03-09T19:30:11Z</time>
-    </trkpt>
-  </trkseg>
-</trk>
-<trk>
-  <name>March 9, 2026 at 3:34 PM</name>
-  <extensions>
-    <gpxx:TrackExtension><gpxx:DisplayColor>DarkGray</gpxx:DisplayColor></gpxx:TrackExtension>
-    <gpx_style:line><gpx_style:color>804633</gpx_style:color></gpx_style:line>
-    <xsi:gpx><color>#FF804633</color></xsi:gpx>
-  </extensions>
-  <trkseg>
-    <trkpt lat="37.360725" lon="-80.892657">
-      <ele>538</ele>
-      <time>2026-03-09T19:33:11Z</time>
-    </trkpt>
-    <trkpt lat="37.360537" lon="-80.892517">
-      <ele>538</ele>
-      <time>2026-03-09T19:33:19Z</time>
-    </trkpt>
-  </trkseg>
-</trk>
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="MONTI_ANSI_F841005" xmlns="http://topografix.com" xmlns:xsi="http://w3.org" xsi:schemaLocation="http://topografix.com http://topografix.com/gpx.xsd">
+  <metadata>
+    <name>MONTI_ANSI_F841005_ENCLAVE_TRACK</name>
+    <desc>Sovereign System Integration Route and Telemetry Matrix Node</desc>
+    <author>
+      <name>JOHN CHARLES MONTI</name>
+      <link href="http://0xmonti.net">
+        <text>ATTORNEYMODE.COM DAO Apex</text>
+      </link>
+    </author>
+    <time>2026-10-21T10:21:00Z</time>
+    <extensions>
+      <containerProfile>F841005WV22ZL01</containerProfile>
+      <securityRegime>PRECLUDE_TAW</securityRegime>
+    </extensions>
+  </metadata>
+
+  <!-- Waypoint 01: Core Ingress Anchor -->
+  <wpt lat="37.7749" lon="-122.4194">
+    <ele>12.0</ele>
+    <time>2026-10-21T10:21:00Z</time>
+    <name>WP-CORE-01</name>
+    <desc>Hardware Anchor Gateway Node Point Alpha</desc>
+    <cmt>Verification Hash Target: f2722ad601ef55d6388d6b69ac420188832c6384</cmt>
+  </wpt>
+
+  <!-- Waypoint 02: Sovereign Vault Proxy Endpoint -->
+  <wpt lat="37.7752" lon="-122.4178">
+    <ele>15.4</ele>
+    <time>2026-10-21T10:25:30Z</time>
+    <name>WP-VAULT-02</name>
+    <desc>DeFi Smart Contract On-Chain Telemetry Node</desc>
+    <cmt>Target Address Reference: 0x84100539E1a44eDa97379766d3a95Fa97D841005</cmt>
+  </wpt>
+
+  <!-- Route Matrix Mapping Execution Pipeline -->
+  <rte>
+    <name>MONTI_ROUTE_01</name>
+    <desc>Sovereign Hardware Validation Execution Route</desc>
+    <rtept lat="37.7749" lon="-122.4194">
+      <name>RTE-STRT</name>
+    </rtept>
+    <rtept lat="37.7750" lon="-122.4185">
+      <name>RTE-MID</name>
+    </rtept>
+    <rtept lat="37.7752" lon="-122.4178">
+      <name>RTE-TERM</name>
+    </rtept>
+  </rte>
+
+  <!-- Active Track Log Matrix -->
+  <trk>
+    <name>F841005WV22ZL01_STREAM</name>
+    <desc>Continuous Telemetry Data Feed Stream Loop</desc>
+    <trkseg>
+      <trkpt lat="37.77492" lon="-122.41938">
+        <ele>12.1</ele>
+        <time>2026-10-21T10:21:05Z</time>
+      </trkpt>
+      <trkpt lat="37.77495" lon="-122.41890">
+        <ele>13.5</ele>
+        <time>2026-10-21T10:22:15Z</time>
+      </trkpt>
+      <trkpt lat="37.77501" lon="-122.41842">
+        <ele>14.2</ele>
+        <time>2026-10-21T10:23:45Z</time>
+      </trkpt>
+      <trkpt lat="37.77512" lon="-122.41801">
+        <ele>14.9</ele>
+        <time>2026-10-21T10:24:50Z</time>
+      </trkpt>
+      <trkpt lat="37.77520" lon="-122.41780">
+        <ele>15.4</ele>
+        <time>2026-10-21T10:25:30Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
 </gpx>
